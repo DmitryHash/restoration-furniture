@@ -776,7 +776,7 @@ footer {
 
 
 .bluewood {
-    background-image: url(img/bluewood.png);
+    background-image: url(img/master/bluewood.png);
     max-width: 1440px;
     width: 100%;
     min-height: 601px;
@@ -792,6 +792,7 @@ footer {
     line-height: 150%;
     color: #F6F6F6;
     padding: 267px 196px 97px 197px;
+    /* text-shadow: inset 0px 0px 10px #323232; */
 }
 
 .bluewood > button {
@@ -808,3 +809,57 @@ footer {
     cursor: pointer;
 }
 
+.ourworks {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.ourworks > div:nth-child(1) {
+    margin-bottom: 100px;
+}
+
+.ourworks > div:nth-child(1) > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.ourworks > div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.ourworks > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.ourworks > div:nth-child(2) > div > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 102.99%;
+    color: #323232;
+}
+
+.thirdbefore {
+    width: 260px;
+    height: 300px;
+}
+
+.zxc-span {
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    rotate: 180grad;
+}
