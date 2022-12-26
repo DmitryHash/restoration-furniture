@@ -12,7 +12,20 @@ main {
     background-color: #F3EFEA;
 }
 
+.burger-menu {
+    display: flex;
+    gap: 6px;
+    visibility: hidden;
+}
+
+.burger {
+    position: absolute;
+    visibility: hidden;
+    border: 3px solid black;
+}
+
 .header-menu {
+    position: relative;
     display: flex;
     max-width: 1440px;
     width: 100%;
@@ -192,11 +205,12 @@ main {
     border-bottom: 3px solid #715B4B;
     max-width: 360px;
     width: 100%;
-    padding-top: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-bottom: 14px;
+    padding-bottom: 14px;
+    /* padding-bottom: 5px; */
 }
 
 .whatit-main-paragraf-text1 {
@@ -826,6 +840,11 @@ footer {
     margin-bottom: 100px;
 }
 
+/* .thirdbefore {
+    height: 300px;
+    width: 249px;
+} */
+
 .ourworks > div:nth-child(1) > h2 {
     font-family: 'Tenor Sans', sans-serif;
     font-style: normal;
@@ -838,6 +857,7 @@ footer {
 .ourworks > div:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 35px;
 }
 

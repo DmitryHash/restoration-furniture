@@ -1,0 +1,136 @@
+@media screen and (max-width: 380px) {
+    header {
+        width: 100%;
+        min-height: 115px;
+        height: 100%;
+    }
+
+    .header-menu {
+        width: 100%;
+        min-height: 115px;
+        height: 100%;
+    }
+
+    .header-menu > span, .logo{
+        display: none;
+    }
+
+    .burger {
+        visibility: visible;
+        top: 50px;
+        left: 270px;
+        width: 68px;
+        gap: 10px;
+    }
+
+    .burger-menu {
+        visibility: visible;
+        display: flex;
+    }
+
+    .main {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    }
+
+    .main-section-text-span {
+        max-width: 200px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main-section-text {
+        padding-left: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: 548px;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+
+    .main-section-text-title {
+        max-width: 375px;
+        width: 100%;
+        /* min-height: 76px;
+        height: 100%; */
+        padding-left: 0px;
+        font-family: 'Tenor Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .main-section-text-span2 {
+        max-width: 311px;
+        width: 100%;
+        padding-left: 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        padding-bottom: 21px;
+    }
+
+    .main-section-text-button {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .main-section-text-icons {
+        justify-content: flex-start;
+        padding-top: 77px;
+    }
+
+    .main-section-img > img {
+        width: 100%;
+        height: 415px;
+    }
+
+    /* .whatit-main-title > h2 {
+        
+    } */
+
+    .whatit-main-paragraf {
+        flex-wrap: wrap;
+        max-width: 300px;
+        width: 100%;
+        
+    }
+
+    .whatit-main-paragraf-text1, .whatit-main-paragraf-text2, .whatit-main-paragraf-text3 {
+        padding-bottom: 10px;
+    }
+
+    .whatit-main {
+        margin-left: 35px;
+    }
+
+    .weproduce-table > div {
+        max-width: 150px;
+        width: 100%;
+        min-height: 204px;
+        height: 100%;
+    }
+
+    .family-discription {
+        flex-wrap: wrap;
+    }
+
+    .family-discription > div > img {
+        width: 380px;
+        height: 255px;
+    }
+
+    /* .family-discription > div */
+
+}    
