@@ -795,8 +795,8 @@ footer {
     /* text-shadow: inset 0px 0px 10px #323232; */
 }
 
-.bluewood > button {
-    margin-left: 556px;
+.bluewood > div > button {
+    /* margin-left: 556px; */
     padding: 18px 59px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -807,6 +807,12 @@ footer {
     border: none;
     background: #F6F6F6;
     cursor: pointer;
+}
+
+.bluewood > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ourworks {
@@ -851,15 +857,270 @@ footer {
     color: #323232;
 }
 
-.thirdbefore {
-    width: 260px;
-    height: 300px;
+.exampless-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+    margin-bottom: 178px;
 }
 
-.zxc-span {
-    border: 1px solid black;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    rotate: 180grad;
+.exampless {
+    padding: 18px 44px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background: #A1B29F;
+    cursor: pointer;
+}
+
+
+.technics {
+    max-width: 1440px;
+    width: 100%;
+    /* margin: 0 auto; как правильно сделать отступ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 30px; */
+    gap: 43px;
+}
+
+
+.spantext {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    justify-content: center;
+    /* padding: 9px 0 9px 0; */
+    /* align-items: center; */
+}
+
+.spantext > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.numbers {
+    max-width: 36px;
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.line {
+    border-left: 1px solid rgba(196, 196, 196, 1);
+    /* transform: rotate(90deg); */
+    height: 57px;
+    display: flex;
+}
+
+.numbers > span {
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    padding: 24px 23px;
+    width: 14px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background: rgba(161, 178, 159, 1);
+}
+
+.technics-title > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.technics-title {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.second-life {
+    background-image: url(img/second-life.jpg);
+    max-width: 1440px;
+    width: 100%;
+    min-height: 508px;
+    height: 100%;
+    margin-top: 160px;
+}
+
+.second-life > h3 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #F6F6F6;
+    text-align: center;
+    /* max-width: 950px;
+    width: 100%; */
+    padding: 182px 245px;
+}
+
+.restoration {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.restoration > div:nth-child(1) > h2 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.restoration > div:nth-child(1) {
+    margin-bottom: 104px;
+}
+
+/* .restoration-things {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+} */
+
+.restoration-things {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.restoration-things > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    /* max-width: 200px;
+    width: 100%; */
+}
+
+.restoration-things > div > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.joinery-business {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.business-title > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.business-title {
+    margin-bottom: 100px;
+}
+
+.business-master {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.business-master > div {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+}
+
+.business-master > div > img {
+    width: 560px;
+    height: 560px;
+}
+
+.business-master > div > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.leadership {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 174px;
+    padding-bottom: 322px;
+}
+
+.leadership-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leadership-wrapper > div:nth-child(1) > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    padding-bottom: 100px;
+}
+
+.leadership-wrapper > div > p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    max-width: 591px;
+    width: 100%;
+    padding-bottom: 47px;
+}
+
+.leadership-wrapper > div > div > button {
+    padding: 18px 74px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background-color: #A1B29F;
+    cursor: pointer;
 }
