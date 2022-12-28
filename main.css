@@ -790,7 +790,7 @@ footer {
 
 
 .bluewood {
-    background-image: url(img/master/bluewood.png);
+    background: url(img/master/bluewood.png) no-repeat;
     max-width: 1440px;
     width: 100%;
     min-height: 601px;
@@ -980,7 +980,7 @@ footer {
 }
 
 .second-life {
-    background-image: url(img/second-life.jpg);
+    background: url(img/second-life.jpg) no-repeat center;
     max-width: 1440px;
     width: 100%;
     min-height: 508px;
@@ -1296,6 +1296,7 @@ footer {
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .portfolio-title {
@@ -1309,6 +1310,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 21px;
+    
 }
 
 .portfolio-pic > img {
@@ -1323,6 +1325,22 @@ footer {
 .portfolio-pic > div > img {
     width: 103px;
     height: 102px;
+}
+
+.sparrov2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 93%;
+    right: 11%;
+}
+
+.sparrov1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 93%;
+    left: 11%;
 }
 
 .stages-container {
@@ -1430,6 +1448,7 @@ footer {
     margin: 0 auto;
     margin-top: 160px;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .about-us-title > h2 {
@@ -1439,6 +1458,11 @@ footer {
     font-size: 48px;
     line-height: 150%;
     color: #57463A;
+}
+
+.sparrov3 {
+    position: absolute;
+    visibility: hidden;
 }
 
 .about-us-pic {
@@ -1487,4 +1511,227 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.history {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid black;
+}
+
+.history-content {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.history-title > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.history-title > h2:nth-child(1) {
+    padding-bottom: 19px;
+}
+
+.history-title > h2:nth-child(2) {
+    padding-bottom: 40px;
+}
+
+.achievements {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 157px;
+}
+
+.achievements-content {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.achievements-content > div > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    padding-bottom: 20px;
+}
+
+.achievements-content > div > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.founder {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.founder-content {
+    max-width: 1160px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.founder-text > h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+
+.founder-text > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 70px;
+}
+
+.founder-master {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 70px;
+    /* max-width: 660px;
+    width: 100%;
+    min-height: 312px;
+    height: 100%; */
+}
+
+.founder-text > p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 18px;
+}
+
+.philosophy {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.philosophy-content {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.philosophy-title > h2 {
+    font-family: 'Tenor Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+
+.philosophy-text > p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    /* text-align: end; */
+}
+
+.philosophy-text {
+    /* max-width: 695px;
+    width: 100%; */
+    /* min-height: 72px;
+    height: 100%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    margin-top: 70px;
+}
+
+.philosophy-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.news-content {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news-title > h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    padding-bottom: 20px;
+}
+
+.news-title > span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.news-pic {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.news-pic > img {
+    height: 100%;
+}
+
+.brake {
+    display: none;
+}
+
+.restavration-brake {
+    display: none;
 }
