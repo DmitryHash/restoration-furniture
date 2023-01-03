@@ -445,7 +445,7 @@
     }
 
     .restoration > div:nth-child(1) {
-        margin-left: 38px;
+        margin-left: 30px;
     }
     
     .restoration-things {
@@ -825,16 +825,22 @@
     }
 
     .sparrov2 {
-        top: 58%;
-        width: 15px;
-        height: 15px;
-        left: 90%;
+        top: 230px;
+        width: 20px;
+        height: 20px;
+        left: 340px;
     }
 
     .sparrov3 {
         visibility: visible;
-        left: 85%;
-        top: 435%;
+        left: 320px;
+        top: 200px;
+    }
+
+    .sparrov4 {
+        visibility: visible;
+        left: 320px;
+        top: 3300px;
     }
 
     /* .main-section-picture {
